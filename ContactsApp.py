@@ -7,7 +7,8 @@ import pandasql as psql
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle
 from reportlab.lib import colors
-
+ 
+ 
 url = "https://docs.google.com/spreadsheets/d/10dpcDXGzsd8Hl_2derZ1kc6wO0tPI0N7IDs0DOGpVr8/edit?usp=sharing"
 conn = st.experimental_connection('gsheets', type=GSheetsConnection, ttl=1)
 # dfgoogle = conn.read(worksheet="362554757")

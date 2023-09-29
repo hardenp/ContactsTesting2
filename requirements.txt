@@ -1,0 +1,7 @@
+st-gsheets-connection==0.0.3
+numpy==1.26.0
+pandas==1.5.3
+pandasql==0.7.3
+streamlit==1.27.0
+reportlab==4.0.5
+streamlit-dynamic-filters==0.1.2
